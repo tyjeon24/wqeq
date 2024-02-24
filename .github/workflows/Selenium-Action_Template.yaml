@@ -24,4 +24,8 @@ jobs:
 
       - name: Running the Python script
         run: python Selenium-Template.py
+
+      - name: Get result
+        run: cat GitHub_Action_Results.txt
+        
         
